@@ -12,6 +12,9 @@
  *= require_self
  *= require_tree .
  */
+body {
+  background: #f3f3f3;
+}
 .container-fluid {
 	width:285px;
 	height:auto;
@@ -104,6 +107,7 @@
 	border-right: 0px;
 	padding: 0 6px 0 6px;
 	line-height: 26px;
+	background: #fff;
 }
 .list-group {
 	width: 30%;
