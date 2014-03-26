@@ -1,0 +1,11 @@
+<div class="container-fluid">
+<h3>Request Beta</h3>
+<div class="row-fluid">
+
+<%= form_for @email, html: {class: "form-inline"} do |f| -%>
+<table class="table table-bordered">
+    <td>e-mail</td><td><%= f.text_field :emailtext, :class => 'input-small' %></td></table>
+    <%= f.submit 'Request', :class => 'btn btn-danger' %>
+<% end -%></div>
+</div>
+</div>

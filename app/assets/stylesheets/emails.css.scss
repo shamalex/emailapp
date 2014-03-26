@@ -1,0 +1,19 @@
+@import "bootstrap";
+// Place all the styles related to the emails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+  .content {
+    width:285px;
+    height:auto;
+    background:#cfe2f3;
+    margin:0 auto;
+		text-align: center;
+   }
+	.content h1 {
+		padding: 30px 0 30px 0;
+		border: 2px solid;
+	 }
+	.link_new_email {
+		text-align:center;
+		display: block;
+	 }
