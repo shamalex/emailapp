@@ -1,12 +1,12 @@
-<h2>List of e-mails</h2> <br>
-<ul class="list-group">
+<h3>List of e-mails</h3> <br>
+<div class="list-group">
 <% if !@emails.blank? %>
 
   <% for item in @emails %>
-<table class="table table-bordered">
-    <tr><td>e-mail</td>
-<td><%= item.emailtext %></td></td></tr></table>
+<table class="table">
+    <span class="email-box">e-mail</span>
+<span class="invert"><%= item.emailtext %></span></table>
   <% end %>
   <% else %>
   
-  <% end %></ul>
+  <% end %></div>
