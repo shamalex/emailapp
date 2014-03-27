@@ -1,12 +1,17 @@
-<h3>List of e-mails</h3> <br>
+<h3>List of e-mails</h3>
+<br> <!-- TODO: Use margins instead brs -->
 <div class="list-group">
-<% if !@emails.blank? %>
+  <% if !@emails.blank? %>
 
-  <% for item in @emails %>
-<table class="table">
-    <span class="email-box">e-mail</span>
-<span class="invert"><%= item.emailtext %></span><br></table>
-  <% end %>
+    <% for item in @emails %>
+      <!--TODO: Replace this with semantically right markup-->
+      <table class="table">
+        <span class="email-box">e-mail</span>
+        <span class="invert"><%= item.emailtext %></span>
+        <br>
+      </table>
+    <% end %>
   <% else %>
-  
-  <% end %></div>
+
+  <% end %>
+</div>

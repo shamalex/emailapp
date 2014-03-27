@@ -1,13 +1,15 @@
 <div class="container-fluid">
-<h3>Request Beta</h3>
-<div class="row-fluid">
+  <h3>Request Beta</h3>
 
-<%= form_for @email, html: {class: "form-inline invert"} do |f| -%>
+  <div class="row-fluid">
 
-<span class="email-box">e-mail</span><%= f.text_field :emailtext, :class => 'input-small' %>
-    <%= f.submit 'Request', :class => 'btn btn-danger right' %>
-<% end -%></div>
+    <%= form_for @email, html: {class: "form-inline invert"} do |f| -%>
+
+      <span class="email-box">e-mail</span><%= f.text_field :emailtext, :class => 'input-small' %>
+      <%= f.submit 'Request', :class => 'btn btn-danger right' %>
+    <% end -%>
+  </div>
 </div>
 </div>
 <div class="row-fluid">
-<%= link_to "View all E-mails",admin_emails_path, :class => 'span3' %></div>
+  <%= link_to "View all E-mails", admin_emails_path, :class => 'span3' %></div>
