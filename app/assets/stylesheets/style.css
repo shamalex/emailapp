@@ -1,0 +1,161 @@
+/* by Alex Shamshin */
+body {
+  background: #f3f3f3;
+}
+
+.container-fluid {
+  width: 285px;
+  height: auto;
+  background: #cfe2f3;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid;
+  h1 {
+    padding: 26px 0 26px 0;
+  }
+  h3 {
+    font-weight: normal;
+  }
+}
+
+.link_new_email {
+  text-align: center;
+  display: block;
+}
+
+.container-fluid {
+  tbody tr {
+    background: #fff;
+    border-radius: 0;
+  }
+
+  .table-bordered {
+    border: 1px solid #000;
+  }
+}
+
+.wrap {
+  width: 100%;
+  text-align: center;
+}
+
+.invert {
+  position: relative;
+  &:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-left: 14px solid #ffffff;
+    position: absolute;
+    right: 114px;
+    top: 2px;
+    -moz-border-top-colors: transparent;
+  }
+  &:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    border-left: 16px solid #000;
+    position: absolute;
+    right: 112px;
+    -moz-border-top-colors: transparent;
+    top: 0px;
+  }
+}
+
+.list-group {
+  width: 280px;
+  margin: 0 auto;
+  .invert {
+    position: relative;
+    float: left;
+    height: 28px;
+    border: 2px solid #000;
+    border-right: 0px;
+    padding: 0 6px 0 6px;
+    line-height: 26px;
+    background: #fff;
+    min-width: 200px;
+    &:before {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-top: 16px solid transparent;
+      border-bottom: 16px solid transparent;
+      border-left: 16px solid #000;
+      position: absolute;
+      right: -15px;
+      -moz-border-top-colors: transparent;
+      top: -2px;
+    }
+    &:after {
+      content: "";
+      display: block;
+      width: 0;
+      border-top: 14px solid transparent;
+      border-bottom: 14px solid transparent;
+      border-left: 14px solid #ffffff;
+      right: -13px;
+      top: 0px;
+      -moz-border-top-colors: transparent;
+    }
+  }
+}
+
+.list-group li {
+  list-style-type: none;
+	margin-bottom: 5px;
+}
+
+.table {
+  margin-bottom: 2px;
+}
+
+noindex:-o-prefocus, .invert:after {
+  right: 115px;;
+}
+
+.right {
+  margin-left: 45px;
+}
+
+.row-fluid input[type="text"] {
+  border: 2px solid #000;
+  border-right: 0px;
+  border-radius: 0;
+}
+
+#new_email > span {
+  width: 39px;
+  height: 28px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-right: 0px;
+  padding: 0 6px 0 6px;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.email-box {
+  width: 39px;
+  float: left;
+  height: 28px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-right: 0px;
+  padding: 0 6px 0 6px;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+h3 {
+  text-align: center;
+}
+
